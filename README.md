@@ -1,2 +1,2 @@
 # R
-R Language
+Learning R for Data Analytics
