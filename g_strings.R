@@ -40,4 +40,3 @@ str3
 str2  <- "Lenguaje de \"Programación\" R" #Sirve para imprimir las comillas dobles 
 cat(str2)
 
-asdfgbhjhgfds
