@@ -45,5 +45,5 @@ matriz
 #Podemos ver la cantidad de filas/columnas de una matriz con dim()
 dim(matriz)
 
-#Podemos ver la longitud de la matriz
+#Podemos ver la cantidad de datos de la matriz
 length(matriz)
