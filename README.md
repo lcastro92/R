@@ -1,2 +1,2 @@
 # R
-Learning R for Data Analytics
+R Essencials for Data Analytics
