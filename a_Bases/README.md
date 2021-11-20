@@ -1,2 +1,2 @@
 # R
-R Essencials for Data Analytics
+R Essencials 
