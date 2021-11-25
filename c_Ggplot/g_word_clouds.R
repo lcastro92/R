@@ -68,3 +68,9 @@ wordcloud(words=df$palabra,freq=df$frecuencia,min.freq=3)
 
 #podemos limitar la cantidad de palabras a ver
 wordcloud(words=df$palabra,freq=df$frecuencia,min.freq=1, max.words=50)
+
+#Podemos agregar una paleta de colores
+wordcloud(words=df$palabra,freq=df$frecuencia,min.freq=1, max.words=50,colors=brewer.pal(8,"Dark2"))
+  
+#También podemos agrupar en orden de frecuencia
+wordcloud(words=df$palabra,freq=df$frecuencia,min.freq=1, max.words=50,colors=brewer.pal(8,"Dark2"),random.order = FALSE)
