@@ -52,6 +52,7 @@ map
 map <- leaflet(quakes) %>%addTiles() %>%
   addMarkers(clusterOptions=markerClusterOptions()) #agrupa por regiones
 saveWidget(map, file="map.html")
+map
 #sirve para modificar las dimensiones
 display_html(paste("<iframe src=' ",'map.html',"'width='100%' height='300'","/>"))
 
